@@ -4,8 +4,7 @@ This presents a simple loan microservice to demonstrate the principles of a hexa
 The microservice exposes a RESTful API that allows consuming applications to perform CRUD operations on a loan service. The microservice is developed in Golang, 
 and the loan data is persisted in a golang kvs (map).
 
-![Alt text](hexagonal.png?raw=true "")
-
+![Alt text](hexagonal.png?raw=true "
 ## Tech Stack : 
 
 ```
