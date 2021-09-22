@@ -4,7 +4,7 @@ This presents a simple loan microservice to demonstrate the principles of a hexa
 The microservice exposes a RESTful API that allows consuming applications to perform CRUD operations on a loan service. The microservice is developed in Golang, 
 and the loan data is persisted in a golang kvs (map).
 
-![Alt text](hexagonal.png?raw=true "
+![Alt text](hexagonal.png)?raw=true"
 ## Tech Stack : 
 
 ```
@@ -41,7 +41,7 @@ and the loan data is persisted in a golang kvs (map).
   |  |
   |  +--+ github.com/
   |     |
-  |     +--+ lending/
+  |     +--+ loan/
   |        |
   |        +--+ handler/
   |        |  |
@@ -82,5 +82,5 @@ and the loan data is persisted in a golang kvs (map).
      if you are using go >= 1.11 don't forget to turn on go module. GO111Module=on
 ### Application Deployment
     go to resources
-    run : docker build -t lending:<tag> .
-    run : docker run -d -p <your available port>:8080 --name go-app-container lending@<tag>
+    run : docker build -t loan:<tag> .
+    run : docker run -d -p <your available port>:8080 --name go-app-container loan@<tag>
