@@ -12,7 +12,7 @@ type NSQ struct {
 
 func New(addr string) *NSQ {
 	config := nsq.NewConfig()
-	p, err := nsq.NewProducer("127.0.0.1:4150", config)
+	p, err := nsq.NewProducer(addr, config)
 	if err != nil {
 		log.Panic(err)
 	}
