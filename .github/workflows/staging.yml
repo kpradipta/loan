@@ -14,5 +14,5 @@ jobs:
 
     # Run Unit Test
     - name: Run Unit Test
-      run: go test -v /loan/internal/services/test
+      run: go test -v internal/core/services/test
    
